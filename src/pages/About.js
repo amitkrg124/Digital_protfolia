@@ -81,12 +81,12 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Amit</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
+                  I am from New Delhi, India. A place of beauty and
                   nature. Since my childhood, i love art and design. I always
                   try to design stuff with my unique point of view. I also love
                   to create things that can be usefull to others.
@@ -115,15 +115,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Rajkiya Pratibha Vikas Vidhayala, New Delhi']}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                items={['Giani Zail Singh Campus College Of engineering & Technology']}
               />
               <AboutInfoItem
                 title="Varsity"
-                items={['University Of Chitiagong']}
+                items={['MRSPTU University']}
               />
             </div>
             <div className="about__info__item">
@@ -135,26 +135,14 @@ export default function About() {
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                items={['Node', 'PHP']}
               />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
-              />
+                  
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
+              <h1 className="about__info__heading">Experiences</>
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
+                title="2021-"
                 items={['Freelance web Developer']}
               />
             </div>
